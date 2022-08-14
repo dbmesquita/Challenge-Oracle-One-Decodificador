@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="https://unpkg.com/phosphor-icons"></script>
+  <title>Challenge ONE - Decodificador de Texto</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div class="principal">
+      <img src="./assets/logo.png" alt="logo">
+      <div class="principal-00">
+        <textarea class="buscar" name="buscar" id="buscar" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+        <div class="button-00">
+          <label id="aviso"><label id="inter">&#33;</label> Apenas letras minúsculas e sem acento.</label>
+          <div class="button-01">
+            <button id="button-001" onclick="codificar()">Criptografar</button>
+            <button id="button-002" onclick="decodificar()">Descriptografar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="exibir">
+      <textarea name="texto" id="texto" cols="20" rows="10"></textarea>
+      <img id="exibir-0" src="./assets/products.png" alt="busca">
+      <div id="exibir-00">
+        <label id="exibir-01">Nenhuma mensagem encontrada</label>
+        <label id="exibir-02">Digite um texto que você deseja criptografar ao descriptografar.</label>
+      </div>
+      <div class="copy">
+        <button id="copy" onclick="copiar()">Copiar</button>
+      </div>
+    </div>
+    </div>
+  </main>
+  <footer>
+    <p>&#169; 2022 <a href="https://www.linkedin.com/in/dionata-mesquita/"  rel="noreferrer noopener" target="_blank">Desenvolvido por Dionata Mesquita</a></p>
+            
+    <div class="rs">
+        <a href="https://github.com/dbmesquita" target="_blank">
+          <i class="ph-github-logo-thin"></i>
+        </a>
+        <a href="https://www.instagram.com/dionatamesquita/" target="_blank">
+        <i class="ph-instagram-logo-thin"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/dionata-mesquita/" target="_blank">
+          <i class="ph-linkedin-logo-thin"></i>
+        </a>
+    </div>  
+  </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
